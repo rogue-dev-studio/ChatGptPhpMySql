@@ -1,8 +1,8 @@
 <?php
-$servername = "localhost";
-$username = "root";
+$servername = "server_host";
+$username = "username_server";
 $password = "";
-$dbname = "chatgpt";
+$dbname = "nama_db";
 
 // Membuat koneksi
 $conn = new mysqli($servername, $username, $password, $dbname);

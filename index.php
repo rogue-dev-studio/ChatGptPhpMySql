@@ -16,7 +16,7 @@
         <div class="header">
             <div class="row">
                 <div class="col-sm-5">
-                    <h1>ChatGPT with PHP</h1>
+                    <h1>ChatGPT with PHP and MySQL</h1>
                 </div>
                 <div class="col-sm-7 icon-screen">
                     <button id="fullwidth-btn" class="fullwidth-button" onclick="toggleFullwidth()">

@@ -2,8 +2,8 @@
 
 // Fungsi untuk mengirim permintaan ke API ChatGPT
 function sendChatGPTRequest($message) {
-    $apiKey = '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'; // Ganti dengan kunci API ChatGPT Anda
-    $url = 'https://api.openai.com/v1/chat/completions';
+    $apiKey = 'API_KEY'; // Ganti dengan kunci API ChatGPT Anda
+    $url = 'url_Api';
 
     $data = array(
         'model' => 'gpt-3.5-turbo',
