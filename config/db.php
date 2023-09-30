@@ -1,7 +1,7 @@
 <?php
 $servername = "server_host";
 $username = "username_server";
-$password = "";
+$password = "your_password";
 $dbname = "nama_db";
 
 // Membuat koneksi
@@ -15,7 +15,7 @@ if ($conn->connect_error) {
 // Operasi database
 
 // Contoh: Mengambil data dari tabel
-$sql = "SELECT * FROM login";
+$sql = "SELECT * FROM table_name";
 $result = $conn->query($sql);
 
 // if ($result->num_rows > 0) {
